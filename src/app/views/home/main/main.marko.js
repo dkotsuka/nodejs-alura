@@ -19,7 +19,7 @@ function render(input, out, __component, component, state) {
 
   component_globals_tag({}, out);
 
-  out.w("<h1>Casa do código</h1><button>Lista de livros</button>");
+  out.w("<h1>Casa do código</h1><a href=\"/livros\">Lista de livros.</a>");
 
   init_components_tag({}, out);
 
